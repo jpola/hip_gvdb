@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/rocm/hip/include/**",
+                "/opt/rocm-4.2.0/llvm/bin/../lib/clang/12.0.0/**",
+                "/opt/rocm-4.2.0/hsa/include/**"
+            ],
+            "defines": ["__HIP__"],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
